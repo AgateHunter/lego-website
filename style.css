@@ -23,7 +23,29 @@ h4 {
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
     column-gap: 10px;
-    text-align: right;
+    text-align: center;
     font-size:20px;
+
+}
+
+.signup-button-container{
+    float:left;
+
+}
+
+.divtop {
+    background:whitesmoke;
+}
+
+.divmission {
+    background: lavenderblush;
+}
+
+.divstatement {
+    background: darkgray;
+}
+
+.divgallery { 
+    background: lightgoldenrodyellow;
 
 }
