@@ -2,3 +2,16 @@ body {
     background-color: lightgray;
 }
 
+h1 {
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 10px;
+    text-align: right;
+    font-size:20px;
+
+}
