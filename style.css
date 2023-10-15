@@ -7,6 +7,17 @@ h1 {
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+h4 {
+    font-weight:bolder;
+    font-size: medium;
+    color:darkslategray;
+    text-decoration-line: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-style: double;
+
+}
+
 .gallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
