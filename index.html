@@ -9,6 +9,34 @@
 
 
     <body>
+
+      <script>
+
+    alert('Greetings, and welcome Lego Fan!');
+
+    const usersAnswer = prompt('Do you believe there should be an 's' on the end of the word Lego? Type yes or no');
+
+    console.log('User typed: ' + usersAnswer);
+
+    if (usersAnswer == 'no'){
+      document.write('I'm going to let you try that again');
+    } else if (usersAnswer == 'yes') {
+      document.write('Ah, this is the correct answer!');
+    } else { 
+      document.write('Stick with us and you'll learn the correct answer');
+    }
+
+    const usersYear = prompt("What year were you born?");
+
+    if (usersyear <= 2005) {
+      document.write("You're officially an Adult Fan of Lego!;");
+    } else if (usersAge > 2005 ) {
+      document.write('Check with your gaurdian(s) before buying any Lego!');
+    } else {
+      document.write('Can you please type that again?');
+    }
+
+  </script>
         
      <div class="divtop">
         <header>
