@@ -7,7 +7,6 @@ function askName() {
 
 function askLego() {
   let usersAnswer = prompt('Does 's' belong at the end of the word Lego? Type yes or no.');
-
   console.log('User typed: ' + usersAnswer);
 
   if (usersAnswer == 'no') {
@@ -19,4 +18,8 @@ function askLego() {
     
     }
   }
+
+function welcomePrompt(nameGoesHere) {
+  alert('You have come to the greatest website ever - LEGO Fans of the World!!!');
+  document.write('Are you a fan of Lego? Are yo part of this workd? Then welcome to Lego Fands of the World,' + nameGoesHere);
 }
